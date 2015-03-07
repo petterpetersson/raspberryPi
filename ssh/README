@@ -1,7 +1,0 @@
-Log in to remote host using ssh without password
-use the same email as github
-
-@local $ ssh-keygen -t rsa -C "name@email.com"
-@local $ ssh-copy-id -i ~/.ssh/id_rsa.pub "remote-host"
-
-Done!
